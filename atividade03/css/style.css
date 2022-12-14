@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    border: 1px red solid;
+    width: 1280px;
+    height: 100px;
+}
+header h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 45px;
+
+    border: 1px solid white;
+    padding-bottom: 45px
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 0px;
+    gap: 29px;
+    text-decoration: none;
+    
+}
+.container1{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        text-decoration: none;
+        max-width: 800px;
+        margin: auto;
+}
+/*.nav-logo{
+    
+    margin-right: 235px ;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}*/
+/*.footer h1{
+    /*text-align: center;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+}*/
+footer{
+    
+            
+    background-color: #000;
+    color: #fff;
+
+    width: 805px;
+    height: 294px;
+    left: 0px;
+    top: 2213px;
+    margin-top: 1000px;
+    margin-left: 543px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.foto1{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    width: 640px;
+    height: 803px;
+    left: 0px;
+    top: 100px;
+
+}
+.foto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    position: absolute;
+    width: 640px;
+    height: 803px;
+    left: 640px;
+    top: 100px;
+}
+.foto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 0px;
+    top: 903px;
+}
+.foto4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 320px;
+    top: 903px;
+}
+.foto5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 640px;
+    top: 903px;
+    
+}
+.foto6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    width: 320px;
+    height: 600px;
+    left: 960px;
+    top: 903px;
+    
+}
+.foto7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    width: 428px;
+    height: 700px;
+    left: 0px;
+    top: 1503px;
+}
+.foto8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    position: absolute;
+    width: 428px;
+    height: 700px;
+    left: 428px;
+    top: 1503px;
+}
+.foto9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+    position: absolute;
+    width: 425px;
+    height: 700px;
+    left: 856px;
+    top: 1503px;
+    
+}
+.barra1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+ul{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+    width: 293px;
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 11px 0px;
+    gap: 29px;
+    
+    width: 293px;
+    height: 42.15px;
+
+}
